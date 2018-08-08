@@ -1,0 +1,39 @@
+#enovathemes-front-end-panel-demo-link label,
+#enovathemes-front-end-panel-demo-link input {
+	display: block !important;
+	width: 100% !important;
+}
+
+#enovathemes-front-end-panel-demo-link label {
+	margin-bottom: 4px;
+}
+
+.enovathemes-front-end-panel-info {
+	font-weight: 700;
+	color: #212121;
+	padding: 16px;
+	background-color: #fbeba4;
+	display: inline-block;
+}
+
+.enovathemes-front-end-panel-settings input[type=text] {
+	min-width: 480px;
+}
+
+.enovathemes-front-end-panel-settings textarea {
+	width: 100%;
+	min-height: 256px;
+}
+
+.efp-button-remove {
+	display: none !important;
+}
+
+.efp-button-remove.active {
+	display: inline-block !important;
+}
+
+.efp-preview-upload {
+	max-width: 100%;
+	height: auto;
+}
