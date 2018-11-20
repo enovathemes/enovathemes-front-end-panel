@@ -27,7 +27,7 @@
 		$(this).find('option').each(function(){
 			var $this = $(this);
 			if (window.location.href == $this.val()) {
-				$this.attr('selected','selected');
+				$this.attr('selected','selected').siblings().removeAttr('selected');
 			}
 		});
 	});
